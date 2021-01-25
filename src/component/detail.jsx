@@ -22,7 +22,7 @@ function Detail() {
             .catch(err => {
                 console.log(err)
             })
-    }, []);
+    }, [id]);
     return (
         <div>
             <h2>{ pokemon.name}</h2>

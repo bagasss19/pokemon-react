@@ -15,7 +15,7 @@ const Pokemon = () => {
     const [search, setSearch] = useState([]);
     useEffect(() => {
         dispatch(GETPOKEMON())
-    }, []);
+    }, [dispatch]);
 
     return (
         <div>
